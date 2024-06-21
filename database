@@ -1,0 +1,7 @@
+CREATE TABLE file_upload (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    jenis_dokumen VARCHAR(255) NOT NULL,
+    nama_file VARCHAR(255) NOT NULL,
+    path_file VARCHAR(255) NOT NULL,
+    waktu_upload TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
